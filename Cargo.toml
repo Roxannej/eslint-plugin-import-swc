@@ -2,6 +2,10 @@
 name = "eslint-plugin-import-swc"
 version = "0.1.0"
 edition = "2021"
+authors = ["1391753481@qq.com"]
+description = "A swc plug-in that removes excess from the project's files"
+license = "MIT"
+license-file = "LICENSE"
 
 [dependencies]
 swc_common = "0.37.5"
