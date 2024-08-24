@@ -15,3 +15,9 @@ swc_ecma_transforms_base = "0.144.0"
 swc_ecma_parser = "0.149.1"
 swc_core = "0.101.6"
 
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = "symbols"
+
