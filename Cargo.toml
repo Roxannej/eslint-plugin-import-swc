@@ -1,0 +1,13 @@
+[package]
+name = "eslint-plugin-import-swc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+swc_common = "0.37.5"
+swc_ecma_ast = "0.118.2"
+swc_ecma_visit = "0.104.8"
+swc_ecma_transforms_base = "0.144.0"
+swc_ecma_parser = "0.149.1"
+swc_core = "0.101.6"
+
